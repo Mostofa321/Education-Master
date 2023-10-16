@@ -1,7 +1,3 @@
-import Link from "next/link";
-import {
-    Typography,
-} from "../materialTailwind/MaterialComponents";
 import  ListItem  from "./ListItem";
 
 const NavList = () => {

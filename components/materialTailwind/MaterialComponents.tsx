@@ -3,6 +3,7 @@
 import {
     ThemeProvider,
     Button,
+    ButtonGroup,
     Navbar,
     Collapse,
     Typography,
@@ -12,6 +13,7 @@ import {
 export {
     ThemeProvider,
     Button,
+    ButtonGroup,
     Navbar,
     Collapse,
     Typography,
