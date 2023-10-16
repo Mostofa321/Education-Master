@@ -8,6 +8,7 @@ import {
     Collapse,
     Typography,
     IconButton,
+    Input,
 } from "@material-tailwind/react";
 
 export {
@@ -18,4 +19,5 @@ export {
     Collapse,
     Typography,
     IconButton,
+    Input,
 };

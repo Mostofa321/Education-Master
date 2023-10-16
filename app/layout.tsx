@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from '../components/materialTailwind/MaterialComponents'
 import { Nav } from '@/components/navBar/Nav'
 import TopBar from '@/components/topBar/TopBar'
+import SearchBar from '@/components/searchBar/SearchBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <ThemeProvider>
           <TopBar />
           <Nav />
+          <SearchBar />
           {children}
         </ThemeProvider>
       </body>
