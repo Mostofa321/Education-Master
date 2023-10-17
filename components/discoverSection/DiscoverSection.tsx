@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const DiscoverSection = () => {
     return (
-        <div className='mt-20 2xl:container mx-auto'>
+        <div className='my-20 2xl:container mx-auto px-3 lg:px-0'>
             <Typography
                 variant='h2'
                 className='text-center'
