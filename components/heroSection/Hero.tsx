@@ -34,7 +34,7 @@ const Hero = () => {
             </Carousel>
 
             {/* Circles  */}
-            <div className="absolute lg:bottom-8 left-2/4 z-50 hidden xl:flex -translate-x-2/4 gap-3">
+            <div className="xl:absolute lg:bottom-8 left-2/4 z-40 hidden xl:flex -translate-x-2/4 gap-3">
                 {
                     circles?.map((circle, index) => (
                         <Circle

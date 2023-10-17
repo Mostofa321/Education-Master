@@ -39,7 +39,7 @@ const Slide: FC<slideTypes> = ({imgUrl, title, description, btn_1_Text, btn_2_Te
                     >
                         {description}
                     </Typography>
-                    <div className="flex justify-center gap-4">
+                    <div className="hidden sm:flex justify-center gap-4">
                         <Button className='rounded-sm bg-[#f36b3b] font-normal px-11 hover:bg-[white] text-[white] hover:text-[black]' size="lg">
                             {btn_1_Text}
                         </Button>

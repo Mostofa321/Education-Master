@@ -27,7 +27,7 @@ export const Nav = () => {
     }, []);
 
     return (
-        <div className="shadow-md sticky top-0 z-20 bg-[white] p-3">
+        <div className="shadow-md sticky top-0 z-50 bg-[white] p-3">
             <Navbar className="mx-auto shadow-none max-w-screen-2xl px-4 py-2">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Image src="/logo.png" width={250} height={250} alt={"Logo"} />
