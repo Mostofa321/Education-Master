@@ -9,6 +9,7 @@ import {
     Typography,
     IconButton,
     Input,
+    Carousel,
 } from "@material-tailwind/react";
 
 export {
@@ -20,4 +21,5 @@ export {
     Typography,
     IconButton,
     Input,
+    Carousel,
 };

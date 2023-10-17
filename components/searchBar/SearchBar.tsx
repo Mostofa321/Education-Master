@@ -6,7 +6,7 @@ import { CiSearch } from 'react-icons/ci'
 
 const SearchBar = () => {
   return (
-    <div className='bg-[#002147] p-5'>
+    <div className='bg-[#002147] p-3'>
       <form className='max-w-screen-2xl mx-auto'>
         <div className=" h-[48px] flex items-center justify-center">
           <div className='relative'>
