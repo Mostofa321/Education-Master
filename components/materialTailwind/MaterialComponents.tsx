@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import {
     ThemeProvider,
@@ -10,6 +10,13 @@ import {
     IconButton,
     Input,
     Carousel,
+    Tabs,
+    TabsHeader,
+    TabsBody,
+    Tab,
+    TabPanel,
+    Card,
+    Checkbox,
 } from "@material-tailwind/react";
 
 export {
@@ -22,4 +29,11 @@ export {
     IconButton,
     Input,
     Carousel,
+    Tabs,
+    TabsHeader,
+    TabsBody,
+    Tab,
+    TabPanel,
+    Card,
+    Checkbox,
 };
