@@ -6,7 +6,7 @@ const UpcomingEventSection = () => {
     
     
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto lg:w-[83%] py-20'>
+        <div className='2xl:container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 px-3  mx-auto  py-20'>
             {/* Events col */}
             <Events />
 

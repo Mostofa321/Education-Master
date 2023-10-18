@@ -55,9 +55,9 @@ const Events = () => {
                                         className='font-semibold'
                                     >
                                         {
-                                            (event?.title.length < 22) ?
+                                            (event?.title.length < 20) ?
                                                 event.title :
-                                                `${event.title.slice(0, 22)}...`
+                                                `${event.title.slice(0, 20)}...`
                                         }
                                     </Typography>
                                     <Typography
