@@ -1,7 +1,6 @@
-import Link from 'next/link';
-import { Typography } from '../materialTailwind/MaterialComponents';
+"use client";
+
 import React from 'react'
-import { topCouses } from './Data';
 import TopCourses from './TopCourses';
 import NewCourses from './NewCourses';
 import HelpAndSupport from './HelpAndSupport';

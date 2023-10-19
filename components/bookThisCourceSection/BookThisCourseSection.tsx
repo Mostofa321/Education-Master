@@ -1,4 +1,6 @@
-import { Typography, Button } from '../materialTailwind/MaterialComponents'
+"use client";
+// import { Typography, Button } from '../materialTailwind/MaterialComponents'
+import { Button, Typography } from '@material-tailwind/react'
 import Image from 'next/image'
 import React from 'react'
 

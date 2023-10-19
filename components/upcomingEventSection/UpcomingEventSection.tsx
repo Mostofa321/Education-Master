@@ -1,3 +1,5 @@
+"use client";
+
 import RegisterAndLogin from './RegisterAndLogin';
 import JobVacants from './JobVacants';
 import Events from './Events';

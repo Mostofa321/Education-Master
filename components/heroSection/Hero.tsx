@@ -1,12 +1,13 @@
 "use client"
 
-import {
-    Carousel,
-} from "../materialTailwind/MaterialComponents";
+// import {
+//     Carousel,
+// } from "../materialTailwind/MaterialComponents";
 import './Hero.css'
 import { slides, circles } from './Data'
 import Slide from "./Slide";
 import Circle from "./Circle";
+import { Carousel } from '@material-tailwind/react';
 
 
 const Hero = () => {

@@ -1,19 +1,18 @@
 "use client"
 
 import React from 'react'
-import {
-    Typography,
-    Tabs,
-    TabsHeader,
-    TabsBody,
-    Tab,
-    TabPanel,
-    Card,
-    Input,
-    Button,
-} from '../materialTailwind/MaterialComponents'
+// import {
+//     Typography,
+//     Tabs,
+//     TabsHeader,
+//     TabsBody,
+//     Tab,
+//     TabPanel,
+//     Card,
+// } from '../materialTailwind/MaterialComponents'
 import { tabsData } from './Data'
 import Form from './Form'
+import { Card, Tab, TabPanel, Tabs, TabsBody, TabsHeader, Typography } from '@material-tailwind/react'
 
 const RegisterAndLogin = () => {
     const [activeTab, setActiveTab] = React.useState("register");

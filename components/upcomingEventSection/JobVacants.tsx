@@ -1,10 +1,13 @@
+"use client";
+
 import React from 'react'
-import {
-    Typography,
+// import {
+//     Typography,
     
-} from '../materialTailwind/MaterialComponents'
+// } from '../materialTailwind/MaterialComponents'
 import { jobVacants, } from './Data'
 import Image from 'next/image'
+import { Typography } from '@material-tailwind/react'
 
 const JobVacants = () => {
     return (

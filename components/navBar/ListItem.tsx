@@ -1,8 +1,11 @@
+"use client";
+
 import { FC } from 'react'
-import {
-    Typography,
-} from "../materialTailwind/MaterialComponents";
+// import {
+//     Typography,
+// } from "../materialTailwind/MaterialComponents";
 import Link from 'next/link';
+import { Typography } from '@material-tailwind/react';
 
 interface LiTypes {
     LiElement?: string,

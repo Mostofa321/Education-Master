@@ -1,7 +1,10 @@
+"use client";
+
+import { Button } from '@material-tailwind/react'
 import React from 'react'
-import {
-  Button,
-} from "../materialTailwind/MaterialComponents";
+// import {
+//   Button,
+// } from "../materialTailwind/MaterialComponents";
 import { CiSearch } from 'react-icons/ci'
 
 const SearchBar = () => {

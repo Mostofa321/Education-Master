@@ -1,8 +1,11 @@
+"use client";
+
 import React from 'react'
-import {
-    Typography,
-} from '../materialTailwind/MaterialComponents'
+// import {
+//     Typography,
+// } from '../materialTailwind/MaterialComponents'
 import { upComingEvents, } from './Data'
+import { Typography } from '@material-tailwind/react';
 
 const Events = () => {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

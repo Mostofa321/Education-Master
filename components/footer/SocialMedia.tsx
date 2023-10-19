@@ -1,5 +1,8 @@
+"use client";
+
+import { IconButton, Typography } from '@material-tailwind/react'
 import React from 'react'
-import { IconButton, Typography } from '../materialTailwind/MaterialComponents';
+// import { IconButton, Typography } from '../materialTailwind/MaterialComponents';
 import {FaFacebookF, FaTwitter, FaGooglePlusG, FaYoutube, FaWhatsapp} from "react-icons/fa"
 
 const SocialMedia = () => {

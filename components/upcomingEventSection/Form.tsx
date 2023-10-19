@@ -1,8 +1,11 @@
+"use client";
+
+import { Button, Input } from '@material-tailwind/react';
 import React, { FC } from 'react'
-import {
-    Input,
-    Button,
-} from '../materialTailwind/MaterialComponents'
+// import {
+//     Input,
+//     Button,
+// } from '../materialTailwind/MaterialComponents'
 
 interface formTypes {
     value?: string;

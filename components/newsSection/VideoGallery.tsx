@@ -1,5 +1,8 @@
+"use client";
+
+import { Typography } from '@material-tailwind/react'
 import React from 'react'
-import { Typography } from '../materialTailwind/MaterialComponents';
+// import { Typography } from '../materialTailwind/MaterialComponents';
 
 const VideoGallery = () => {
     return (
