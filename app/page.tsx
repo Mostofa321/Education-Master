@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from '@/components/heroSection/Hero'
 import DiscoverSection from '@/components/discoverSection/DiscoverSection'
 import PopularCourses from '@/components/popularCourses/PopularCourses'
