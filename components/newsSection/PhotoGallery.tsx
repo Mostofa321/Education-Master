@@ -1,3 +1,5 @@
+"use client"
+
 import { Typography } from '../materialTailwind/MaterialComponents';
 import Image from 'next/image';
 import React from 'react'
@@ -26,8 +28,9 @@ const PhotoGallery = () => {
             </Typography>
             <hr className='border mb-8 mt-3' />
             <div className="grid grid-cols-3 gap-5">
-                {images.map(i => (
+                {images.map((i, index) => (
                     <Image
+                        key={index}
                         src={`${i}`}
                         width={121}
                         height={89}

@@ -24,7 +24,7 @@ const JobVacants = () => {
             <div className='mt-10'>
                 {
                     jobVacants?.map((job, index) => (
-                            <div className='flex flex-wrap items-center gap-3'>
+                            <div key={index} className='flex flex-wrap items-center gap-3'>
                                 <div className='rounded-sm'>
                                     <Image src={`${job?.imgUrl}`} width={77} height={77} alt='' />
                                 </div>

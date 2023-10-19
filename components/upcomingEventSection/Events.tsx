@@ -35,7 +35,7 @@ const Events = () => {
                         const year = d.getFullYear();
 
                         return (
-                            <div className='flex flex-wrap items-center gap-3'>
+                            <div key={index} className='flex flex-wrap items-center gap-3'>
                                 <div className='bg-[#03294e] text-[white] p-3 rounded-sm text-center'>
                                     <Typography
                                         variant='h4'
