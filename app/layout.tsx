@@ -6,6 +6,7 @@ import { Nav } from '@/components/navBar/Nav'
 import TopBar from '@/components/topBar/TopBar'
 import SearchBar from '@/components/searchBar/SearchBar'
 import Footer from '@/components/footer/Footer'
+import CopyRight from '@/components/copyRight/CopyRight'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
           <SearchBar />
           {children}
           <Footer />
+          <CopyRight />
         </ThemeProvider>
       </body>
     </html>
