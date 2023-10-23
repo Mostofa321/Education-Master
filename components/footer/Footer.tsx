@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react'
 import TopCourses from './TopCourses';
 import NewCourses from './NewCourses';

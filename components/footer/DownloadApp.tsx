@@ -1,9 +1,6 @@
-"use client";
-
 import React from 'react'
 import Link from 'next/link';
-import { Typography } from '@material-tailwind/react';
-// import { Typography } from '../materialTailwind/MaterialComponents';
+import { Typography } from '../materialTailwind/MaterialComponents';
 
 const DownloadApp = () => {
     return (

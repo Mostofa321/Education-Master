@@ -1,13 +1,10 @@
-"use client";
-
 import React from 'react'
 import NewsAndEvents from './NewsAndEvents'
 import PhotoGallery from './PhotoGallery'
 import VideoGallery from './VideoGallery'
-import { Typography } from '@material-tailwind/react';
-// import {
-//     Typography
-// } from '../materialTailwind/MaterialComponents'
+import {
+    Typography
+} from '../materialTailwind/MaterialComponents'
 
 const NewsSection = () => {
     return (

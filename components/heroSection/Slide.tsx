@@ -1,12 +1,9 @@
-"use client";
-
 import React, { FC } from 'react'
-// import {
-//     Button,
-//     Typography
-// } from "../materialTailwind/MaterialComponents";
+import {
+    Button,
+    Typography
+} from "../materialTailwind/MaterialComponents";
 import Image from 'next/image';
-import { Button, Typography } from '@material-tailwind/react';
 
 interface slideTypes {
     imgUrl?: string;

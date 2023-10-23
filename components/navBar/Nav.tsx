@@ -1,15 +1,14 @@
 "use client"
 
 import { useState, useEffect } from 'react'
-// import {
-//     Navbar,
-//     Collapse,
-//     IconButton,
-// } from "../materialTailwind/MaterialComponents";
+import {
+    Navbar,
+    Collapse,
+    IconButton,
+} from "../materialTailwind/MaterialComponents";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import NavList from './NavList';
-import { Collapse, IconButton, Navbar } from '@material-tailwind/react';
 
 
 

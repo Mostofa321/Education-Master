@@ -1,10 +1,7 @@
-"use client";
-
-import { Typography } from '@material-tailwind/react';
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { FC } from 'react'
-// import { Typography } from '../materialTailwind/MaterialComponents'
+import { Typography } from '../materialTailwind/MaterialComponents'
 
 interface circleTypes {
     link?: string;

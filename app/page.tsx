@@ -1,5 +1,3 @@
-"use client";
-
 import Hero from '@/components/heroSection/Hero'
 import DiscoverSection from '@/components/discoverSection/DiscoverSection'
 import PopularCourses from '@/components/popularCourses/PopularCourses'
@@ -7,7 +5,7 @@ import UpcomingEventSection from '@/components/upcomingEventSection/UpcomingEven
 import NewsSection from '@/components/newsSection/NewsSection'
 import BookThisCourseSection from '@/components/bookThisCourceSection/BookThisCourseSection'
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
       <Hero />
@@ -19,3 +17,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home;

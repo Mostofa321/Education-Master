@@ -1,14 +1,11 @@
-"use client";
-
 import React from 'react'
-// import {
-//     Button,
-//     Typography,
-// } from '../materialTailwind/MaterialComponents'
+import {
+    Button,
+    Typography,
+} from '../materialTailwind/MaterialComponents'
 import Image from 'next/image';
 import { FaChartBar, FaRegEye, FaShareAlt, } from 'react-icons/fa'
 import { popularCources } from './Data';
-import { Button, Typography } from '@material-tailwind/react';
 
 const PopularCourses = () => {
     return (

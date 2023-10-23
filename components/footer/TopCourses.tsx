@@ -1,10 +1,7 @@
-"use client";
-
 import React from 'react'
 import Link from 'next/link';
-// import { Typography } from '../materialTailwind/MaterialComponents';
+import { Typography } from '../materialTailwind/MaterialComponents';
 import { topCouses } from './Data';
-import { Typography } from '@material-tailwind/react';
 
 const TopCourses = () => {
     return (

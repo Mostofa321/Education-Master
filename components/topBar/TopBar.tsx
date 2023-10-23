@@ -1,12 +1,9 @@
-"use client";
-
-import { Button, ButtonGroup, Typography } from '@material-tailwind/react'
 import React from 'react'
-// import {
-//     Typography,
-//     Button,
-//     ButtonGroup,
-// } from "../materialTailwind/MaterialComponents";
+import {
+    Typography,
+    Button,
+    ButtonGroup,
+} from "../materialTailwind/MaterialComponents";
 import { BiLogoFacebook, BiLogoTwitter, BiLogoGooglePlus } from 'react-icons/bi'
 
 const TopBar = () => {

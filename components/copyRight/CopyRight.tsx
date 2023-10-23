@@ -1,6 +1,4 @@
-"use client";
-// import { Typography } from '../materialTailwind/MaterialComponents'
-import { Typography } from '@material-tailwind/react'
+import { Typography } from '../materialTailwind/MaterialComponents'
 import React from 'react'
 
 const CopyRight = () => {
