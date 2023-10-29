@@ -9,7 +9,10 @@ const Home = () => {
     <main>
       <Hero />
       <DiscoverSection />
-      <PopularCourses />
+      <PopularCourses
+        title='Popular Courses'
+        subTitle='Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.'
+      />
       <UpcomingEventSection />
       <NewsSection />
     </main>

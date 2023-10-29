@@ -1,10 +1,10 @@
 import About from '@/components/about/About'
 import React from 'react'
 
-const page = () => {
+const AboutUs = () => {
   return (
     <About />
   )
 }
 
-export default page
+export default AboutUs

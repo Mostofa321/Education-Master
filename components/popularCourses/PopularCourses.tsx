@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import {
     Button,
     Typography,
@@ -7,7 +7,12 @@ import Image from 'next/image';
 import { FaChartBar, FaRegEye, FaShareAlt, } from 'react-icons/fa'
 import { popularCources } from './Data';
 
-const PopularCourses = () => {
+interface coursesTypes {
+    title?: string;
+    subTitle?: string;
+}
+
+const PopularCourses: FC<coursesTypes> = ({ title, subTitle }) => {
     return (
         <div className='py-10 bg-[#f5f5f5]'>
             <div className='mt-10 2xl:container mx-auto px-3 lg:px-0'>
@@ -15,13 +20,13 @@ const PopularCourses = () => {
                     variant='h2'
                     className='text-center'
                 >
-                    Popular  <span className='text-[#f26838]'>Courses</span>
+                    {title?.split(" ")[0]}  <span className='text-[#f26838]'>{title?.split(" ")[1]}</span>
                 </Typography>
                 <Typography
                     variant='paragraph'
                     className='text-center text-[#3f444a] my-3'
                 >
-                    Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.
+                    {subTitle}
                 </Typography>
 
                 <div className='grid grid-cols-1  lg:grid-cols-2 my-10 gap-10 mx-auto lg:w-[90%]'>

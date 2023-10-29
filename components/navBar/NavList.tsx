@@ -5,11 +5,11 @@ const NavList = () => {
         <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-0">
             <ListItem LiElement="Home" route="/" />
             <ListItem LiElement="About us" route="/pages/about" />
-            <ListItem LiElement="Admission" />
-            <ListItem LiElement="All Courses" />
-            <ListItem LiElement="Events" />
-            <ListItem LiElement="Student" />
-            <ListItem LiElement="Contact us" />
+            <ListItem LiElement="Admission" route="/pages/admission" />
+            <ListItem LiElement="All Courses" route="/pages/allCourses" />
+            <ListItem LiElement="Events" route="/pages/events" />
+            <ListItem LiElement="Student" route="/pages/student" />
+            <ListItem LiElement="Contact us" route="/pages/contact" />
         </ul>
     );
 }
