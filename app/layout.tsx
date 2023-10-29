@@ -7,6 +7,7 @@ import TopBar from '@/components/topBar/TopBar'
 import SearchBar from '@/components/searchBar/SearchBar'
 import Footer from '@/components/footer/Footer'
 import CopyRight from '@/components/copyRight/CopyRight'
+import BookThisCourseSection from '@/components/bookThisCourceSection/BookThisCourseSection';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
           <Nav />
           <SearchBar />
           {children}
+          <BookThisCourseSection />
           <Footer />
           <CopyRight />
         </ThemeProvider>

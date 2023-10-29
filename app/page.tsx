@@ -3,7 +3,6 @@ import DiscoverSection from '@/components/discoverSection/DiscoverSection'
 import PopularCourses from '@/components/popularCourses/PopularCourses'
 import UpcomingEventSection from '@/components/upcomingEventSection/UpcomingEventSection'
 import NewsSection from '@/components/newsSection/NewsSection'
-import BookThisCourseSection from '@/components/bookThisCourceSection/BookThisCourseSection'
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
       <PopularCourses />
       <UpcomingEventSection />
       <NewsSection />
-      <BookThisCourseSection />
     </main>
   )
 }
