@@ -1,9 +1,12 @@
+import Admission from '@/components/admission/Admission'
 import React from 'react'
 
-const Admission = () => {
+const page = () => {
   return (
-    <div>Admission</div>
+    <div>
+      <Admission />
+    </div>
   )
 }
 
-export default Admission
+export default page

@@ -17,6 +17,8 @@ import {
     TabPanel,
     Card,
     Checkbox,
+    Select,
+    Option,
 } from "@material-tailwind/react";
 
 export {
@@ -36,4 +38,6 @@ export {
     TabPanel,
     Card,
     Checkbox,
+    Select,
+    Option,
 };
