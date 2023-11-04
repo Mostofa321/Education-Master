@@ -1,9 +1,10 @@
+import Student from '@/components/student/Student'
 import React from 'react'
 
-const Student = () => {
+const StudentPage = () => {
   return (
-    <div>Student</div>
+    <Student />
   )
 }
 
-export default Student
+export default StudentPage
