@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import { Card, Typography } from '../materialTailwind/MaterialComponents'
-import React from 'react'
+import Image from 'next/image'
 
 const Profile = () => {
     return (

@@ -6,11 +6,8 @@ import {
     TabsHeader,
     TabsBody,
     Tab,
-    TabPanel,
-    Card,
 } from '../materialTailwind/MaterialComponents'
 import { tabsData } from './Data'
-import Form from '../upcomingEventSection/Form'
 import ProfileCard from './ProfileCard';
 import TabP from './TabP';
 
