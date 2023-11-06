@@ -1,7 +1,11 @@
 import Student from '@/components/student/Student'
 import React from 'react'
 
-const StudentPage = () => {
+
+
+
+const StudentPage = async() => {
+
   return (
     <Student />
   )

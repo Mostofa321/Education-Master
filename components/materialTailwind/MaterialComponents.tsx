@@ -23,6 +23,7 @@ import {
     CardBody,
     CardFooter,
     Tooltip,
+    Textarea
 } from "@material-tailwind/react";
 
 export {
@@ -48,4 +49,5 @@ export {
     CardBody,
     CardFooter,
     Tooltip,
+    Textarea,
 };
