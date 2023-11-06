@@ -19,6 +19,10 @@ import {
     Checkbox,
     Select,
     Option,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Tooltip,
 } from "@material-tailwind/react";
 
 export {
@@ -40,4 +44,8 @@ export {
     Checkbox,
     Select,
     Option,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Tooltip,
 };
