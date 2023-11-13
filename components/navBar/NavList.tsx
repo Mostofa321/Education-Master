@@ -8,8 +8,8 @@ const NavList = () => {
             <ListItem LiElement="Admission" route="/pages/admission" />
             <ListItem LiElement="All Courses" route="/pages/allCourses" />
             <ListItem LiElement="Events" route="/pages/events" />
-            <ListItem LiElement="Student" route="/pages/student" />
             <ListItem LiElement="Admin" route="/pages/admin" />
+            <ListItem LiElement="Student" route="/pages/student" />
             <ListItem LiElement="Contact us" route="/pages/contact" />
         </ul>
     );
